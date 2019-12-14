@@ -1,0 +1,69 @@
+.page-content {
+    width: 80%;
+    display: inline-block;
+    justify-content: center;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h1, h2 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+.also-like {
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+    width: 20%;
+    margin-right: 2%;
+}
+
+.body-text {
+    width: 50%;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+
+
+
+
+
+
+/*Use the HTML article from theonion.com that you formatted in Part 1.
+
+Instructions
+Style the article using the following:
+
+Make the main headline dark green.
+Use the font family "Georgia" for the main headline and the sub-headline.
+Center the text of the main headline and the sub-headline.
+Make the paragraphs have a line height of 25 pixels.
+Remove the underline from the links.
+Make the "You might also like" label all uppercase.
+Bonus: Make an underline appear when you hover over a link.
+Bonus: Make the image 'float' to the left of the body content.
+
+Best practice: CSS should be completely separate from the pure HTML. While it is possible to make CSS inline and even in the HEAD of an HTML file, 
+most of the time it is best if all the CSS is in its on file, and then linked to in the HTML file. This allows us to have multiple HTML pages in a 
+website that use the same styles. To link a CSS file to your HTML file, use the following code:
